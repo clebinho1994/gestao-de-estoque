@@ -8,21 +8,20 @@ header {
   width: 100%;
   background: #fff;
   color: #fff;
-  z-index: 20;
+  z-index: 200;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
+  align-items:center;
   border-bottom: 2px solid rgb(7, 7, 104);
-
 }
 
 .icons {
   display: flex;
   gap: 30px;
   font-size: 25px;
-  margin-right: 40px;
   color: #333;
+  margin-right: 20px;
+  padding: 5px;
 }
 
 .icons i {
@@ -44,10 +43,6 @@ header::before {
   background-color: rgb(7, 7, 104);
 }
 
-.container {
-  margin-left: 200px;
-  margin-top: 100px;
-}
 
 .menu-lateral {
   position: fixed;
@@ -86,10 +81,24 @@ header::before {
   color: #2ecc71;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-top: 100px;
+  overflow: hidden;
+  min-height: calc(100vh - 100px);
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
 .informacoes {
   display: flex;
   justify-content: space-evenly;
-  padding: 20px;
+  align-items: center;
+  
 }
 
 .info {
@@ -140,11 +149,11 @@ header::before {
   justify-content: center;
 }
 
-.table {
+/* .table {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 .table table {
@@ -165,4 +174,4 @@ thead {
 caption {
   font-size: 1.2em;
   margin-bottom: 10px;
-}
+} */
