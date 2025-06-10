@@ -139,3 +139,30 @@ header::before {
   align-items: center;
   justify-content: center;
 }
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px
+}
+
+.table table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ebebeb;
+ 
+}
+
+thead {
+  background-color: #c3c3c3;
+  text-align: center;
+}
+caption {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
