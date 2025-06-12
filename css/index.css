@@ -1,4 +1,5 @@
 @import url("./global.css");
+@import url("../src/output.css");
 
 .container {
   min-height: 100vh;
