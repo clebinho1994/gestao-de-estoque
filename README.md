@@ -14,3 +14,8 @@ HARD SKILLS
   -> Aside Fixo
 
 ------------------------------------------
+
+11/06/25
+
+- Atualizando o Projeto com Tailwindcss
+- Estou estudando e alterando utilizando o Framework.
